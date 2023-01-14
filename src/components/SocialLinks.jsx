@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/gustavo-medeiros-thomaz-77819420a/",
       style: "rounded-tr-md",
     },
     {
@@ -47,7 +47,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
