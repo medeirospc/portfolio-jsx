@@ -15,8 +15,7 @@ const Home = () => {
             Desenvolvedor JavaScript.
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-            fugiat!
+            Clique no botão abaixo para ver meu porfólio.
           </p>
           <div>
             <Link
@@ -24,7 +23,7 @@ const Home = () => {
               smooth
               duration={500}
               className="group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
-             from-yellow-400 to-yellow-800 cursor-pointer duration-300 hover:opacity-80"
+             from-yellow-400 to-yellow-800 cursor-pointer duration-300 hover:opacity-70"
             >
               Portfólio
               <span className="group-hover:rotate-90 duration-300">

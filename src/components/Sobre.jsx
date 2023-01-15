@@ -14,23 +14,14 @@ const Sobre = () => {
         </div>
 
         <p className="text-xl mt-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-          voluptatum sint quasi est unde, molestiae fugit aut atque
-          necessitatibus non autem nesciunt quisquam ipsa placeat consectetur
-          nostrum voluptatem nemo excepturi enim dolorem cupiditate architecto
-          doloremque! Sunt dolorem modi autem? Libero?
+          Olá, meu nome é Gustavo Medeiros, tenho 19 anos e sou um desenvolvedor
+          apaixonado por soluções simples para problemas difíceis. Além de
+          entusiasta de métodos ágeis, ambientes flexíveis e entrega contínua.
+          Atualmente estagio em uma software house, curso gestão da TI na
+          Fatec-SP e sou aluno de programação na Alura!
         </p>
 
         <br />
-
-        <p className="text-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe ab
-          minus sequi. Molestias ducimus omnis repellendus eligendi eaque,
-          fugiat, voluptatum doloribus assumenda suscipit vero aperiam corporis
-          cumque. Animi sunt dolore quaerat sequi corporis nam distinctio
-          libero, praesentium natus quisquam molestiae quidem iusto! Voluptas
-          aliquam minus, doloribus nulla deserunt cumque natus?
-        </p>
       </div>
     </div>
   );
