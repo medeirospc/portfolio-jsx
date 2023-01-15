@@ -9,7 +9,7 @@ const NavBar = () => {
     // arrumar nomes dos componentes
     {
       id: 1,
-      link: "home",
+      link: "início",
     },
     {
       id: 2,
@@ -17,11 +17,11 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "portfólio",
     },
     {
       id: 4,
-      link: "experiencia",
+      link: "experiência",
     },
     {
       id: 5,

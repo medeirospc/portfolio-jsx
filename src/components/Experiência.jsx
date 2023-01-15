@@ -3,8 +3,8 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
-import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.png";
 
 const Experiencia = () => {
   const techs = [
@@ -40,15 +40,15 @@ const Experiencia = () => {
     },
     {
       id: 6,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: node,
+      title: "Node.js",
+      style: "shadow-green-800",
     },
   ];
 
   return (
     <div
-      name="experiencia"
+      name="experiência"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
@@ -56,9 +56,7 @@ const Experiencia = () => {
           <p className="text-4xl font-bold border-b-2 border-yellow-100 inline">
             Experiência
           </p>
-          <p className="py-6">
-            Tecnologias em que tenho trabalhado atualmente.
-          </p>
+          <p className="py-6">Tecnologias em que trabalho atualmente.</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
