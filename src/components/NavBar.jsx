@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
+    // arrumar nomes dos componentes
     {
       id: 1,
-      link: "início",
+      link: "home",
     },
     {
       id: 2,
@@ -15,11 +17,11 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfólio",
+      link: "portfolio",
     },
     {
       id: 4,
-      link: "experiência",
+      link: "experiencia",
     },
     {
       id: 5,
@@ -38,9 +40,12 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 mr-10 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 hover:text-yellow-100 duration-200"
+            className="px-3 mr-10 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105
+             hover:text-yellow-100 duration-200"
           >
-            {link}
+            <Link to={link} smooth duration={500}>
+              {link}
+            </Link>
           </li>
         ))}
       </ul>
@@ -62,7 +67,14 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              {link}
+              <Link
+                onClick={() => setNav(!nav)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>

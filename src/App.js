@@ -1,3 +1,5 @@
+import Contato from "./components/Contato";
+import Experiencia from "./components/Experiencia";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
@@ -11,6 +13,8 @@ function App() {
       <Home />
       <Sobre />
       <Portfolio />
+      <Experiencia />
+      <Contato />
       <SocialLinks />
     </div>
   );

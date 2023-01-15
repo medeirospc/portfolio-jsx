@@ -1,6 +1,7 @@
 import React from "react";
 import MySelf from "../assets/myself.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -18,15 +19,18 @@ const Home = () => {
             fugiat!
           </p>
           <div>
-            <button
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
               className="group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
-             from-yellow-400 to-yellow-800 cursor-pointer"
+             from-yellow-400 to-yellow-800 cursor-pointer duration-300 hover:opacity-80"
             >
               Portfólio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={22} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
