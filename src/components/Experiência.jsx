@@ -56,7 +56,7 @@ const Experiencia = () => {
           <p className="text-4xl font-bold border-b-2 border-yellow-100 inline">
             Experiência
           </p>
-          <p className="py-6">Tecnologias em que trabalho atualmente.</p>
+          <p className="py-6">Tecnologias com que trabalho atualmente.</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

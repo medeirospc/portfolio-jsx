@@ -53,12 +53,12 @@ const Portfolio = () => {
             >
               <img src={src} alt="" className="rounded-t-xl" />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:opacity-80 hover:text-yellow-100">
+                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:scale-110 hover:opacity-60">
                   <a rel="noreferrer" href={href} target="_blank">
                     Abrir
                   </a>
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:opacity-80 hover:text-yellow-100">
+                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:scale-110 hover:opacity-60">
                   <a rel="noreferrer" href={gh} target="_blank">
                     GitHub
                   </a>
