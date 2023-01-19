@@ -1,21 +1,18 @@
 # Portfólio - Gustavo Medeiros.
+
+# Descrição 
+Meu portfólio de desenvolvedor.
+
 <br>
 
 ![portfolio](https://user-images.githubusercontent.com/113216494/212558258-f7301c96-f1ab-4cf9-a5a4-d27887336b8a.png)
 
 <br>
-<br>
 
-## Descrição 
-Web site pessoal desenvolvido com React e Tailwind CSS.
-
-<br>
 
 ## Tecnologias
-<div>
-<img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> 
-<img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" /> 
-</div>
+- React
+- Tailwind CSS
 
 <br>
 
