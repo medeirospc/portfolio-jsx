@@ -5,6 +5,9 @@ import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
+import typescript from "../assets/typescript.png";
+import dotnet from "../assets/dotnet.png";
+import mysql from "../assets/mysql.png";
 
 const Experiencia = () => {
   const techs = [
@@ -30,13 +33,13 @@ const Experiencia = () => {
       id: 4,
       src: react,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-cyan-500",
     },
     {
       id: 5,
       src: tailwind,
       title: "Tailwind CSS",
-      style: "shadow-sky-500",
+      style: "shadow-cyan-300",
     },
     {
       id: 6,
@@ -44,19 +47,37 @@ const Experiencia = () => {
       title: "Node.js",
       style: "shadow-green-800",
     },
+    {
+      id: 7,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 8,
+      src: dotnet,
+      title: ".NET 6",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 9,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-cyan-200",
+    },
   ];
 
   return (
     <div
       name="experiência"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="pt-14 bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-2 border-yellow-100 inline">
             Experiência
           </p>
-          <p className="py-6">Tecnologias com que trabalho atualmente.</p>
+          <p className="text-xl py-6">Tecnologias que eu uso.</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

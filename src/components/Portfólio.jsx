@@ -42,7 +42,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-2 border-yellow-100">
             Portfólio
           </p>
-          <p className="py-6">Visualize meus projetos aqui.</p>
+          <p className="text-xl py-6">Visualize meus projetos.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
