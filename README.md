@@ -1,4 +1,4 @@
-# Portfólio - Gustavo Medeiros.
+# Portfólio.
 
 # Descrição 
 Meu portfólio website.
