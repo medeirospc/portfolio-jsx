@@ -15,7 +15,7 @@ const Início = () => {
             Desenvolvimento, dados e gestão.
           </h2>
           <p className="text-gray-400 text-xl py-4 max-w-md">
-            Clique no botão abaixo para ver meu porfólio.
+            Clique no botão abaixo para ver meu portfólio.
           </p>
           <div>
             <Link
