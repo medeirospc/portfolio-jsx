@@ -1,11 +1,8 @@
 import React from "react";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
-import typescript from "../assets/typescript.png";
 import dotnet from "../assets/dotnet.png";
 import mysql from "../assets/mysql.png";
 
@@ -13,54 +10,36 @@ const Experiencia = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 2,
       src: react,
       title: "React",
       style: "shadow-cyan-500",
     },
     {
-      id: 5,
+      id: 3,
       src: tailwind,
       title: "Tailwind CSS",
       style: "shadow-cyan-300",
     },
     {
-      id: 6,
+      id: 4,
       src: node,
       title: "Node.js",
       style: "shadow-green-800",
     },
     {
-      id: 7,
-      src: typescript,
-      title: "TypeScript",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 8,
+      id: 5,
       src: dotnet,
       title: ".NET 6",
       style: "shadow-purple-500",
     },
     {
-      id: 9,
+      id: 6,
       src: mysql,
       title: "MySQL",
       style: "shadow-cyan-200",

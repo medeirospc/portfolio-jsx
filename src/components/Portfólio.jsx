@@ -49,7 +49,7 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, href, gh }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg duration-500 hover:scale-110"
+              className="shadow-md shadow-gray-600 rounded-lg duration-500 hover:scale-105"
             >
               <img src={src} alt="" className="rounded-t-xl" />
               <div className="flex items-center justify-center">

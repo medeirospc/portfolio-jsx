@@ -14,11 +14,11 @@ const Sobre = () => {
         </div>
         <p className="text-xl mt-2">
           Experiência em projetos front-end utilizando JavaScript, React e
-          Tailwind CSS. Noções em back-end com Node.js, MongoDB, C# .NET 6 e
-          MySQL Workbench na construção de APIs. Conhecimentos em Pacote Office
-          e metodologia Scrum. Atualmente estou buscando uma oportunidade de
-          estágio ou senioridade Jr. em desenvolvimento de software, dados e
-          gestão no setor de tecnologia.
+          Tailwind CSS. Noções em back-end com Node.js, MongoDB, .NET 6 e MySQL
+          Workbench na construção de APIs. Conhecimentos em Pacote Office,
+          Scrum, QA, processos gerenciais e marketing. Atualmente estou buscando
+          uma oportunidade de estágio ou de senioridade JR. em desenvolvimento
+          de software, dados e gestão no setor de tecnologia.
         </p>
         <p className="text-xl mt-6">
           Soft skills: Trabalho em equipe, comunicação, adaptabilidade,
