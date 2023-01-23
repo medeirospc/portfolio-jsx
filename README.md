@@ -1,11 +1,11 @@
 # Portfólio - Gustavo Medeiros.
 
 # Descrição 
-Meu portfólio de desenvolvedor.
+Meu portfólio website.
 
 <br>
 
-![pf](https://user-images.githubusercontent.com/113216494/213884194-1eb86190-7a67-47a8-b569-82ee9d15a555.png)
+![portfolio](https://user-images.githubusercontent.com/113216494/213955390-bbbd9d99-105c-4f44-ad35-a9665541acc1.png)
 
 <br>
 
