@@ -14,10 +14,11 @@ const Sobre = () => {
         </div>
         <p className="text-xl mt-2">
           Experiência em projetos front-end utilizando JavaScript, React e
-          Tailwind CSS. Noções em back-end com Node.js, TypeScript, .NET 6 e
-          MySQL na construção de APIs. Atualmente estagio em uma software house,
-          curso Gestão da TI na Fatec-SP e sou aluno de programação e data
-          science na Alura.
+          Tailwind CSS. Noções em back-end com Node.js, TypeScript, MongoDB,
+          .NET 6 e MySQL Workbench na construção de APIs. Conhecimentos em
+          Pacote Office. Atualmente estou buscando uma oportunidade de estágio
+          ou vaga Jr. em desenvolvimento de software, dados e gestão no setor de
+          tecnologia.
         </p>
         <p className="text-xl mt-6">
           Soft skills: Trabalho em equipe, comunicação, adaptabilidade,
