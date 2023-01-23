@@ -35,11 +35,11 @@ const Portfolio = () => {
   return (
     <div
       name="portfólio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-zinc-900 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-2 border-yellow-100">
+          <p className="text-4xl font-bold inline border-b-2 border-gray-500">
             Portfólio
           </p>
           <p className="text-xl py-6">Visualize meus projetos.</p>
@@ -49,16 +49,16 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, href, gh }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg duration-300 hover:scale-105"
+              className="shadow-md shadow-gray-600 rounded-lg duration-500 hover:scale-110"
             >
               <img src={src} alt="" className="rounded-t-xl" />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:scale-110 hover:opacity-60">
+                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:text-gray-500">
                   <a rel="noreferrer" href={href} target="_blank">
                     Abrir
                   </a>
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:scale-110 hover:opacity-60">
+                <button className="w-1/2 px-6 py-3 m-4 font-bold duration-200 hover:text-gray-500">
                   <a rel="noreferrer" href={gh} target="_blank">
                     GitHub
                   </a>
