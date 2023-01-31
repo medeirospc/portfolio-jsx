@@ -4,6 +4,7 @@ import edicoes from "../assets/portfolio/edicoes.png";
 import organo from "../assets/portfolio/organo.png";
 import weatherapp from "../assets/portfolio/weatherapp.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
+import financas from "../assets/portfolio/financas.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -36,6 +37,12 @@ const Portfolio = () => {
       src: ecommerce,
       href: "https://medeirosmobilestore.vercel.app/",
       gh: "https://github.com/gustamtz/cellphone-store",
+    },
+    {
+      id: 6,
+      src: financas,
+      href: "",
+      gh: "https://github.com/gustamtz/finance-app",
     },
   ];
 
