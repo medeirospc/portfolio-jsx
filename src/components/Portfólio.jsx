@@ -3,13 +3,14 @@ import getkcal from "../assets/portfolio/getkcal.png";
 import edicoes from "../assets/portfolio/edicoes.png";
 import organo from "../assets/portfolio/organo.png";
 import weatherapp from "../assets/portfolio/weatherapp.png";
+import ecommerce from "../assets/portfolio/ecommerce.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: getkcal,
-      href: "https://getkcal-nu.vercel.app/",
+      href: "https://thegetkcal.vercel.app/",
       gh: "https://github.com/gustamtz/getkcal",
     },
     {
@@ -21,14 +22,20 @@ const Portfolio = () => {
     {
       id: 3,
       src: organo,
-      href: "https://organograma-ashen.vercel.app/",
+      href: "https://myorganochallenge.vercel.app/",
       gh: "https://github.com/gustamtz/organograma",
     },
     {
       id: 4,
       src: weatherapp,
-      href: "https://weather-app-chi-plum.vercel.app/",
+      href: "https://medeirosweather.vercel.app/",
       gh: "https://github.com/gustamtz/weather-app",
+    },
+    {
+      id: 5,
+      src: ecommerce,
+      href: "https://medeirosmobilestore.vercel.app/",
+      gh: "https://github.com/gustamtz/cellphone-store",
     },
   ];
 
