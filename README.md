@@ -5,7 +5,7 @@ Meu website portfólio.
 
 <br>
 
-![portfolio](https://user-images.githubusercontent.com/113216494/213955390-bbbd9d99-105c-4f44-ad35-a9665541acc1.png)
+![portfolio](https://user-images.githubusercontent.com/113216494/216148792-f5468dc1-f2e2-4f83-bc8c-362856f869d5.png)
 
 <br>
 
