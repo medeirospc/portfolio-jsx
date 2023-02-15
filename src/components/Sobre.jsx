@@ -16,13 +16,13 @@ const Sobre = () => {
           Experiência em projetos front-end utilizando JavaScript, React e
           Tailwind CSS. Noções em back-end com Node.js, MongoDB, .NET 6 e MySQL
           Workbench na construção de APIs. Conhecimentos em Pacote Office,
-          Scrum, QA, processos gerenciais e marketing. Atualmente estou buscando
-          uma oportunidade de estágio ou de senioridade JR. em desenvolvimento
-          de software, dados e gestão no setor de tecnologia.
+          Quality Assurance e metodologias ágeis como Scrum. Além de ser editor
+          de vídeo usando VEGAS e Premiere.
         </p>
         <p className="text-xl mt-6">
-          Soft skills: Trabalho em equipe, comunicação, adaptabilidade,
-          pensamento crítico e solução de problemas.
+          Possuo um perfil analítico e muito detalhista, trabalho bem em equipe,
+          sou ambicioso por meu desenvolvimento profissional e estou me
+          aprimorando em técnicas para melhorar minha comunicação.
         </p>
         <br />
       </div>
