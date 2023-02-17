@@ -11,7 +11,7 @@ Meu website portfólio.
 
 
 ## Tecnologias
-- React
+- React JS
 - Tailwind CSS
 
 <br>
