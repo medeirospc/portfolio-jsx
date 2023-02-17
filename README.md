@@ -34,7 +34,7 @@ Meu website portfólio.
 ```sh
   $ cd pasta-clonada-do-github
   $ npm install react-scripts --save 
-  $ npm start 
+  $ npm start ou yarn start
 ```
 
 <br>
