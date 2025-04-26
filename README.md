@@ -1,4 +1,4 @@
-# Portfólio.
+# Portfólio
 
 # Descrição 
 Meu website portfólio.
